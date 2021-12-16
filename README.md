@@ -27,7 +27,8 @@ Chú thích: thông tin (1) và (2) và (3) lấy ở Bước 1
 $MY_IP --> địa chỉ chạy trangweb
 $1, $2, $3 --> 3 key lấy từ lab
 
- 
+ # Link Config Auto Scaling
+ https://youtu.be/kyyBlH5LkVc
 
 
 
