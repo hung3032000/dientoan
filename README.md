@@ -1,3 +1,15 @@
+# Xây dụng hệ thống Cloud mô phỏng trang đăng ký môn học có thể tự scale up, scale down
+# Sinh viên thực hiện: Nhóm 29_1
+ Phạm Ngọc Hưng		18110127 </br>
+	Nguyễn Dương Đạt		18110092 </br>
+	Nguyễn Lâm Gia Khang	18110132
+# Ứng dụng
+Việc ứng dụng Auto Scaling cho trang đăng ký môn học giúp các trường sử dụng có thể tiết kiệm được chi phí tốt nhất cho nhà trường. Tình trạng trong một học kỳ chỉ đăng ký môn học một lần duy nhất và 1 năm chỉ có 2 lần. Nhưng vào những ngày đó lượng học sinh, sinh viên truy cập vào trang web để đăng ký rất đông, nếu nhà trường đầu tư cho việc nâng cấp mạng để đáp ứng cho mỗi kì đăng ký môn học thì các ngày khác lượng truy cập rất ít so với ngày đăng ký môn. Điều đó sẽ dẫn tới việc lãng phí tiền bạc.<br>
+Việc sử dụng Auto Scaling sẽ giúp cho trang web có thể dựa vào lượng truy cập để tối ưu hoá đường truyền bằng cách tạo ra các instance để giúp cân bằng tải (load balancer) cho trang web từ đó có thể đáp ứng được lúc có nhiều sinh viên truy cập vào và lúc chỉ có ít sinh viên.
+# Công cụ và công nghệ sử dụng
+- ReactJS.
+- EC2 của AWS.
+- DynamoDB
 # Cách cài đặt
 -	B1: Lấy thông tin AWS
  ![alt](https://res.cloudinary.com/ute18110127/image/upload/v1639643696/DB/1_pzfcrw.png)
